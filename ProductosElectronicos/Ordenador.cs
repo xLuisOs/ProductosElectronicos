@@ -12,7 +12,7 @@ namespace ProductosElectronicos
         public string Procesador { get; set; }
         public string TarjetaGrafica { get; set; }
 
-        public Ordenador(string nombre, string marca, int modelo, string sistemaOperativo, string almacenamiento, string puertoCarga, string ram, string procesador, string tarjetaGrafica)
+        public Ordenador(string nombre, string marca, string modelo, string sistemaOperativo, string almacenamiento, string puertoCarga, string ram, string procesador, string tarjetaGrafica)
        : base(nombre, marca, modelo, sistemaOperativo, almacenamiento, puertoCarga)
         {
             Ram = ram;

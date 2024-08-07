@@ -11,12 +11,12 @@ namespace ProductosElectronicos
     {
         public string Nombre { get; set; }
         public string Marca { get; set; }
-        public int Modelo { get; set; }
+        public string Modelo { get; set; }
         public string SistemaOperativo { get; set; }
         public string Almacenamiento { get; set; }
         public string PuertoCarga { get; set; }
 
-        public Dispositivo(string nombre, string marca, int modelo, string sistemaOperativo, string almacenamiento, string puertoCarga)
+        public Dispositivo(string nombre, string marca, string modelo, string sistemaOperativo, string almacenamiento, string puertoCarga)
         {
             Nombre = nombre;
             Marca = marca;

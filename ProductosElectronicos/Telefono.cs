@@ -12,7 +12,7 @@ namespace ProductosElectronicos
         public int RanuraSim { get; set; }
         public int RanuraSD { get; set; }
 
-        public Telefono(string nombre, string marca, int modelo, string sistemaOperativo, string almacenamiento, string puertoCarga, int camara, string pantalla, string bateria, string company, int ranuraSim, int ranuraSD)
+        public Telefono(string nombre, string marca, string modelo, string sistemaOperativo, string almacenamiento, string puertoCarga, int camara, string pantalla, string bateria, string company, int ranuraSim, int ranuraSD)
             : base(nombre, marca, modelo, sistemaOperativo, almacenamiento, puertoCarga, camara, pantalla, bateria)
         {
             Company = company;

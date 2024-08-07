@@ -11,7 +11,7 @@ namespace ProductosElectronicos
         public bool ConectividadTelefono {  get; set; }
         public bool ConectividadStylus { get; set; }
 
-        public Tablet(string nombre, string marca, int modelo, string sistemaOperativo, string almacenamiento, string puertoCarga, int camara, string pantalla, string bateria, bool conectividadTelefono, bool conectividadStylus)
+        public Tablet(string nombre, string marca, string modelo, string sistemaOperativo, string almacenamiento, string puertoCarga, int camara, string pantalla, string bateria, bool conectividadTelefono, bool conectividadStylus)
             : base(nombre, marca, modelo, sistemaOperativo, almacenamiento, puertoCarga, camara, pantalla, bateria)
         {
             ConectividadTelefono = conectividadTelefono;

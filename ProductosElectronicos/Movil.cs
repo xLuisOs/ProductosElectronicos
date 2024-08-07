@@ -12,7 +12,7 @@ namespace ProductosElectronicos
         public string Pantalla { get; set; }
         public string Bateria { get; set; }
 
-        public Movil(string nombre, string marca, int modelo, string sistemaOperativo, string almacenamiento, string puertoCarga, int camara, string pantalla, string bateria)
+        public Movil(string nombre, string marca, string modelo, string sistemaOperativo, string almacenamiento, string puertoCarga, int camara, string pantalla, string bateria)
             : base(nombre, marca, modelo, sistemaOperativo, almacenamiento, puertoCarga)
         {
             Camara = camara;
